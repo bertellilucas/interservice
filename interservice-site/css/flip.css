@@ -1,0 +1,53 @@
+.flip{
+
+      height: 245px;
+      width: 70%;
+      perspective: 800px;
+      position: relative;
+      background: transparent;
+
+
+}
+
+.flip .frente img{
+  width: 115px;
+  background-color: transparent;
+  margin:40px auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.flip .frente{
+
+  height: 245px;
+  width: 70%;
+  position: absolute;
+  margin-left: 60px;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  transition: all .8s linear;
+  background-color: transparent;
+
+}
+
+.flip .fundo1{
+
+  height: 245px;
+  position: absolute;
+  width: 70%;
+  margin-left: 60px;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  transition: all .8s linear;
+  background-color: transparent;
+}
+
+.flip:hover .frente{
+  transform: rotateY(-180deg);
+  cursor: pointer;
+}
+
+.flip:hover .fundo1{
+  transform: rotateY(-0deg);
+  cursor: pointer;
+}

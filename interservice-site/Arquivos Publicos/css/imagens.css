@@ -1,0 +1,98 @@
+.about{
+    background: url("../imagens/about.jpg") no-repeat 100% /cover;
+    height: 343px;
+}
+
+.tribunal{
+    background: url("../imagens/tribunal.jpg") no-repeat 100% /cover;
+    height: 333px;
+}
+
+.lampada{
+    background: url("../imagens/lampada.jpg") no-repeat 100% /cover;
+    height: 600px;
+}
+.curso1{
+    background: url("../imagens/cursos.jpg") no-repeat 100% /cover;
+    height: 600px;
+}
+.tecnologia{
+    background: url("../imagens/tecnologia.jpg") no-repeat 100% /cover;
+    height: 600px;
+}
+.contato{
+    background: url("../imagens/contato.jpg") no-repeat 100% /cover;
+    height: 600px;
+}
+.parceria{
+    background: url("../imagens/parceria.jpg") no-repeat 100% /cover;
+    height: 600px;
+}
+.vermais{
+    background: url("../imagens/vermais.jpg") no-repeat 100% /cover;
+    height: 600px;
+}
+.cursos{
+    background: url("../imagens/cursos2.jpg") no-repeat 100% /cover;
+    height: 300px;
+}
+.consultoria{
+    background: url("../imagens/consultoria.jpg") no-repeat 100% /cover;
+    height: 300px;
+}
+
+
+.consultoria2{
+    background: url("../imagens/consultoria.jpg") no-repeat 100% /cover;
+    height: 260px;
+    box-shadow: 0px 0px 0px 10px grey;
+    transition: box-shadow 0.8s linear;
+}
+
+.notebook{
+    background: url("../imagens/notebook.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    height: 400px;
+}
+
+
+#interservice {
+    border-radius: 25px;
+    background: url("../imagens/logo_interservice-01.svg") no-repeat 100% /cover;
+    padding: 20px;
+    width: 400px;
+    height: 150px;
+}
+
+.texto{
+  color: #FFFFF0;
+  background: gray;
+  width: 100%;
+  font-size: 96px;
+  line-height: 600px;
+  font-weight: bold;
+  text-align: center;
+  mix-blend-mode: multiply;
+}
+
+@supports (-ms-ime-align:auto) {
+    /* CSS no qua queira utilizar somente nesse navegador */
+    .texto{
+      background: rgba(41, 41, 41, 0.6);
+    }
+}
+.hover10 figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+}
+.hover10 figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}

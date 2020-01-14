@@ -1,0 +1,44 @@
+@media screen and (min-width: 200px) and (max-width: 600px)
+{
+ 
+  .texto{
+
+    font-size: 44px;
+    line-height: 599px;
+  }
+
+  .espaco{
+    margin-bottom: 20px;
+  }
+  .espaco2{
+    padding-left: 25px;
+  }
+
+  .fonte8{
+font-size:30px;
+margin-right: 5%;
+margin-top: 160px;
+}
+.fonte9{
+font-size:22px;
+margin-top: 15px;
+}
+
+div.rodape {
+  background: -moz-linear-gradient(left, #000 35%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/70%;
+  background: -webkit-linear-gradient(left, #000 35%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/70%;
+  background: linear-gradient(to right, #000 5%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/180%;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000', GradientType=1 ),url(../images/bigdata.jpg) no-repeat right/70%;
+  font-family: 'Exo', sans-serif;
+  font-size: 20px;
+}
+
+
+}
+
+@media (width: 1024px) {
+
+.fonte2 {
+font-size: 14px;
+}
+}

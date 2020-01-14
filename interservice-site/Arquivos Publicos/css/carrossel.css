@@ -1,0 +1,19 @@
+#slider{
+    background: url("../imagens/cursos_int.jpg") no-repeat 100% /cover;
+    height: 650px;
+}
+
+#slider2{
+    background: url("../imagens/interservice.jpg") no-repeat 100% /cover;
+    height: 650px;
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+}
+
+#slider3{
+    background: url("../imagens/laptop.jpg") no-repeat 100% /cover;
+    height: 650px;
+    opacity: 1.0;
+    filter: alpha(opacity=50);
+
+}

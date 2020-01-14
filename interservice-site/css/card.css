@@ -1,0 +1,191 @@
+.card-container {
+  cursor: pointer;
+  height: 250px;
+  perspective: 600;
+  position: relative;
+  width: 250px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: url("../imagens/luz.svg") no-repeat 100% /cover;
+  }
+.card .side2 {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: url("../imagens/luz.svg") no-repeat 100% /cover;
+  }
+.card .side3 {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: url("../imagens/luz.svg") no-repeat 100% /cover;
+  }
+.card .side4 {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: url("../imagens/luz.svg") no-repeat 100% /cover;
+  }
+.card .side5 {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background: url("../imagens/luz.svg") no-repeat 100% /cover;
+  }
+
+.card .back {
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  color: black;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+#pai {
+  position: relative;
+    width: 100%;
+}
+#mostrar {
+  position: absolute;
+  bottom:;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#frente {
+  position: relative;
+    width: 100%;
+}
+#verso {
+  position: absolute;
+  bottom:;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .8s ease;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+a:link { color: white; text-decoration: none; }
+
+a:visited { color: white; }
+
+a:hover { color: white; }
+
+a: active { color: white;}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#pai:hover #mostrar {
+  opacity: 1;
+}
+
+#frente:hover #verso {
+  opacity: 1;
+  box-shadow: 6px 6px 25px #CDC9C9;
+  transition: .3s linear all;
+  border-radius:5px;
+}
+.card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+
+  }
+
+  .card-counter.primary{
+    background-color: #007bff;
+    color: #FFF;
+  }
+
+  .card-counter.danger{
+    background-color: #ef5350;
+    color: #FFF;
+  }
+
+  .card-counter.success{
+    background-color: #66bb6a;
+    color: #FFF;
+  }
+
+  .card-counter.info{
+    background-color: #26c6da;
+    color: #FFF;
+  }
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    /* right: 35px; */
+    top: 20px;
+    font-size: 16px;/*32px;*/
+    display: block;
+  }
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+  }

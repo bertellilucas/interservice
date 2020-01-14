@@ -1,0 +1,8 @@
+div.rodape{
+    background: -moz-linear-gradient(left, #000 35%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/70%;
+    background: -webkit-linear-gradient(left, #000 35%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/70%;
+    background: linear-gradient(to right, #000 5%, transparent 100%),url(../imagens/footer.jpeg) no-repeat right/100%;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000', GradientType=1 ),url(../images/bigdata.jpg) no-repeat right/70%;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
